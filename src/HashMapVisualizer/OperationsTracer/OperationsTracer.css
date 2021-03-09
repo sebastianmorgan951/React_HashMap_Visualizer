@@ -9,7 +9,7 @@
 }
 
 .centered { /* For margin, think about how the text is always "under" the image */
-  font-size: 9px;
+  font-size: 0.7vw;
   position: absolute;
   top: 1.6vw;
   margin: 0em;

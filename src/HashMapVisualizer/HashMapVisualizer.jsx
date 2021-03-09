@@ -287,9 +287,6 @@ export default class HashMapVisualizer extends Component {
           </div>
           <input className="text_box" placeholder="val" type="text" onChange={this.handleValueInput}>
           </input>
-          <div type="submit" className="button_clear" onClick={() => this.clearBoxes}>
-            Clear
-          </div>
         </div>
         <div className="op_grid_top">
           {operations.map((enty, ind) => {

@@ -8,7 +8,7 @@ export default class InfoPanel extends Component {
     super();
     this.state = {
       methodCallInfo : methodCall,
-      mapIndexInfo: <p>This will display extra information about hash map entry you click on.
+      mapIndexInfo: <p>This will display extra information about the hash map entry you click on.
                       If you want to get back to having general method call information being
                       displayed on this panel, click on the switch on the right side of your screen.</p>,
       isEmpty: isEmpty,

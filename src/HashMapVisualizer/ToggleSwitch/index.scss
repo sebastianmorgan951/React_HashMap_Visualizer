@@ -6,8 +6,8 @@ $inactive-color: #bbbbbb;
 
 // DEFAULT SIZING VARIABLES
 
-$switch-size: 32px;
-$ball-spacing: 2px;
+$switch-size: 2vw;
+$ball-spacing: 0.2vw;
 $stretch-factor: 1.625;
 
 // DEFAULT CLASS VARIABLE
@@ -125,7 +125,7 @@ $switch-class: 'switch-toggle';
 
     // A smaller switch with a `gray` active color
     // Always pass the $class to the mixin
-    @include switch($color: gray, $size: 20px, $class: $class);
+    @include switch($color: gray, $size: 2vw, $class: $class);
 
   }
 }
