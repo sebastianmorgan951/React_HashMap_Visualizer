@@ -1,0 +1,12 @@
+.info_panel {
+  background-color: #B4D890;
+  color: black;
+  width:300px;
+  outline: 3px solid rgb(59, 130, 187);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+  padding: 10px;
+  font-size: smaller;
+}
